@@ -12,5 +12,8 @@ public class Date {
        System.out.println(month);
        System.out.println(year);
 
+       // step 4
+        System.out.println(day + ", " + month + " " + date + ", " + year);
+
     }
 }
