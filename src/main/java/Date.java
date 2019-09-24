@@ -1,7 +1,9 @@
 public class Date {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("How are you");//going back to basics
+       String day;
+       int date;
+       String month;
+       int year;
 
     }
 }
