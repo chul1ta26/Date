@@ -6,14 +6,22 @@ public class Date {
        String month = "September";
        int year = 2019;
 
-       //step 3
+        //step 3
        System.out.println(day);
        System.out.println(date);
        System.out.println(month);
-       System.out.println(year);
+       System.out.println(year +"\n");
 
-       // step 4
+        // step 4
+        System.out.println(day + ", " + month + " " + date + ", " + year + "\n");
+
+        // step 5
+        System.out.println("American format:");
         System.out.println(day + ", " + month + " " + date + ", " + year);
+
+        System.out.println("European format:");
+        System.out.println(day + " " + date + " " + month + " " + year);
+
 
     }
 }
