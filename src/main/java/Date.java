@@ -1,9 +1,16 @@
 public class Date {
     public static void main(String[] args) {
-       String day;
-       int date;
-       String month;
-       int year;
+        //chapter 2 exercise. step 2
+       String day = "Monday";
+       int date = 23;
+       String month = "September";
+       int year = 2019;
+
+       //step 3
+       System.out.println(day);
+       System.out.println(date);
+       System.out.println(month);
+       System.out.println(year);
 
     }
 }
